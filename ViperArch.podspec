@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "ViperArch"
-  s.version      = "1.0.0"
+  s.version      = "1.0.1"
   s.summary      = "Foundation library for Viper Architecture by ideil. Ported to Swift from ViperMcFlurry by Rambler"
 
   s.homepage     = "https://www.ideil.com/"

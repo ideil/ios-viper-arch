@@ -64,9 +64,9 @@
 		5E39DD9E1E3E4FC200F9A5EB = {
 			isa = PBXGroup;
 			children = (
-				5EFF123B2012A7A90082F899 /* Source */,
 				5E39DDAA1E3E4FC200F9A5EB /* ViperArch */,
 				5E7E35731F3CF021009CC150 /* ViperArchTV */,
+				5EFF123B2012A7A90082F899 /* Source */,
 				5E39DDA91E3E4FC200F9A5EB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -202,6 +202,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 5E39DD9E1E3E4FC200F9A5EB;
