@@ -160,7 +160,7 @@ extension UIViewController: ModuleTransitionHandler {
         } else if presentingViewController != nil {
             dismiss(animated: animated)
         } else if view.superview != nil {
-            removeFromParentViewController()
+            removeFromParent()
             view.removeFromSuperview()
         }
     }
@@ -178,7 +178,7 @@ public extension DispatchQueue {
      - parameter token: A unique reverse DNS style name such as com.vectorform.<name> or a GUID
      - parameter block: Block to execute once
      */
-    public class func once(token: String, block: () -> Void) {
+    class func once(token: String, block: () -> Void) {
         objc_sync_enter(self); defer { objc_sync_exit(self) }
 
         if _onceTracker.contains(token) {
