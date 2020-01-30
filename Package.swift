@@ -12,8 +12,8 @@ let package = Package(
         .library(name: "ViperArch", targets: ["ViperArchTV"]),
     ],
     targets: [
-        .target(name: "ViperArch", dependencies: [], path: ".", exclude: "ViperArchTV"),
-        .target(name: "ViperArchTV", dependencies: [], path: ".", exclude: "ViperArch"),
+        .target(name: "ViperArch", dependencies: [], path: ".", exclude: ["ViperArchTV"]),
+        .target(name: "ViperArchTV", dependencies: [], path: ".", exclude: ["ViperArch"]),
     ],
     swiftLanguageVersions: [.v5]
 )
